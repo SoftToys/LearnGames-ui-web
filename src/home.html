@@ -1,0 +1,19 @@
+<template>
+    <section>
+        <div class="container-fluid">
+            <div class="row">
+                <div repeat.for="game of games" class="col-sm-4 col-md-3">
+                    <div class="thumbnail">
+                        <img src="${game.imgSrc}"  class="img-responsive img-rounded" alt="...">
+                        <div class="caption">
+                            <h3>${game.name}</h3>
+                            <p>...</p>
+                            <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default"
+                                role="button">Button</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</template>

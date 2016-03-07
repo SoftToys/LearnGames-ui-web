@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>LearnGames</title>
+    <link rel="stylesheet" href="jspm_packages/npm/font-awesome@4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/bootswatch/3.3.6/cerulean/bootstrap.css">
+    <link rel="stylesheet" href="styles/styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        .page-host {
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 50px;
+            bottom: 0;
+            overflow-x: hidden;
+            overflow-y: auto;
+        }
+    </style>
+
+</head>
+
+<body aurelia-app="main">
+    <div class="splash">
+        <div class="message">Learn Games booting..</div>
+        <i class="fa fa-spinner fa-spin"></i>
+    </div>
+
+    <script src="jspm_packages/system.js"></script>
+    <script src="config.js"></script>
+    <script>
+        System.import('aurelia-bootstrapper');
+    </script>
+</body>
+
+</html>
