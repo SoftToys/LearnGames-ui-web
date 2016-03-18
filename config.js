@@ -1,4 +1,3 @@
-/* global System */
 System.config({
   baseURL: "/",
   defaultJSExtensions: true,
@@ -19,12 +18,14 @@ System.config({
     "aurelia-bootstrapper": "npm:aurelia-bootstrapper@1.0.0-beta.1.1.4",
     "aurelia-computed": "npm:aurelia-computed@0.9.1",
     "aurelia-framework": "npm:aurelia-framework@1.0.0-beta.1.1.4",
+    "aurelia-logging": "npm:aurelia-logging@1.0.0-beta.1.1.2",
     "aurelia-router": "npm:aurelia-router@1.0.0-beta.1.1.3",
     "babel": "npm:babel-core@5.8.35",
     "babel-runtime": "npm:babel-runtime@5.8.35",
     "bootstrap": "github:twbs/bootstrap@3.3.6",
     "core-js": "npm:core-js@1.2.6",
     "font-awesome": "npm:font-awesome@4.5.0",
+    "underscore": "npm:underscore@1.8.3",
     "github:jspm/nodelibs-assert@0.1.0": {
       "assert": "npm:assert@1.3.0"
     },

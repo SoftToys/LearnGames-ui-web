@@ -13,7 +13,9 @@ export class App {
         config.title = 'Learning Games';
         config.map([
             { route: ['', 'home'], name: 'home', moduleId: 'home', nav: true, title: 'Welcome' },
-            { route: 'Build', name: 'Build', moduleId: 'build-game', nav: true, title: 'Build Game' }            
+            { route: 'build', name: 'nuild', moduleId: 'build-game', nav: true, title: 'Build Game' },
+            { route: 'play', name: 'play', moduleId: 'play', nav: false, title: 'Play' },
+                        
         ]);
 
         this.router = router;
