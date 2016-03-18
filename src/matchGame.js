@@ -2,7 +2,7 @@ import {inject} from 'aurelia-framework';
 import {GamesRepository} from './services/games-repo'
 
 @inject(GamesRepository)
-export class Play {
+export class MatchGame {
   constructor(repo) {
     this.repo = repo;
     this.game = null;

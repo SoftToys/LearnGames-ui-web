@@ -6,6 +6,7 @@ export class Game {
     this.name = name;
     this.description = description;
     this.imgSrc = imgSrc;
+    this.gameType = "matchGame";//route name
   }
 
 
